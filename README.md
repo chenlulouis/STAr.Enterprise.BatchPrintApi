@@ -51,9 +51,9 @@ Puppeteer 是一个控制 headless Chrome 的 Node.js API 。它是一个 Node.j
 
 ### 2. 创建项目
 
-在你认为合适的地方创建一个STAr-BatchPrint(可自定义)文件夹，使用CMD打开文件夹，执行如下命令:
+在你认为合适的地方拷贝项目到本地
 
-    npm init
+    https://github.com/zhangwei8387/STAr.Enterprise.BatchPrintApi.git
 
 npm 会引导你创建package.json的文件。关于NPM其他相关命令请参考[NPM命令说明](https://docs.npmjs.com/cli/init)
 
@@ -61,9 +61,14 @@ npm 会引导你创建package.json的文件。关于NPM其他相关命令请参�
 
 在命令行 执行
 
-    npm install restify puppeteer --save
+    npm install
 
-安装 Restify和Pupperteer两个包，记得加上--save以便更新至packag.json中。
-pupeteer会下载一个特别的Chrome浏览器到你的项目中，大概120MB，请耐心等待...
+安装 相关依赖包。其中pupeteer会下载一个特别的Chrome浏览器到你的项目中，大概120MB，请耐心等待...
+
+### 4. 安装Java Runtime Enviroment
+
+因为 easy-pdf-merge 需要执行一个jar包,所以需要服务器安装Java运行环境
+
+地址: <https://www.java.com/zh_CN/download/windows-64bit.jsp>
 
 至此，项目开发环境就全部搭建完成。
